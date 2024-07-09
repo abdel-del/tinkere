@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+h1 {
+  text-transform: uppercase;
+  color: white;
+}
+.tinker {
+  color: yellow;
+}
+header {
+  background: url(img.jpg) center/cover no-repeat;
+  height: 100vh;
+  position: relative;
+  padding: 20px 0 0 100px;
+}
+
+nav a {
+  color: white;
+  text-decoration: 0;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-right: 25px;
+}
+nav {
+  position: absolute;
+  right: 50px;
+  top: 30px;
+}
+
+div {
+  color: white;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+div span {
+  color: orange;
+}
+.html5 {
+  color: aqua;
+}
+
+p {
+  font-size: 22px;
+}
+
+button {
+  background-color: white;
+  font-size: 30px;
+  padding: 2px 24px;
+  border-radius: 15px;
+}
